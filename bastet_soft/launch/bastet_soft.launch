@@ -1,7 +1,0 @@
-<launch>
-<include file="$(find ydlidar_ros)/launch/X2L.launch" />
-<include file="$(find bastet_soft)/launch/mapping.launch" />
-<include file="$(find bastet_soft)/launch/navigation.launch" />
-
-  <node name="rviz" pkg="rviz" type="rviz" /> <!--args="-d $(find autonet)/rviz/view_map.rviz"-->
-</launch>
